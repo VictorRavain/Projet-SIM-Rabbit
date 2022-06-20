@@ -1,0 +1,34 @@
+data:
+  # Dossier contenant les tracés
+  directory: './public/data/Cardio_Respi/Data_2016/savatier'
+  channels:
+    - name: 'CH1'
+      description: 'spirometrie (amplitude ventilation)'
+      id: 'SP'
+      bounds: [-2, 2]
+    - name: 'CH2'
+      description: 'Pression arterielle, en mmHg'
+      id: 'PA'
+      bounds: [5, 300]
+    - name: 'CH40'
+      description: 'Frequence ventilatoire, en ventilations/min'
+      id: 'FV'
+      bounds: [0, 50]
+    - name: 'CH41'
+      description: 'Frequence cardiaque, en BPM'
+      id: 'FC'
+      bounds: [0, 300]
+  # Prefixes des fichiers à collecter. Si vide, tout est collecte
+  keys: []#['Sansinjection', 'Adrenaline', 'Acetylcholine']
+  # Prefixe des fichiers correspondant à l'etat repos
+  stable_state: 'Sansinjection'
+
+arduino:
+  port: 'COM7'
+  baudrate: 2000000
+  poumon: 'CH40'
+  coeur: 'CH41'
+
+plotting:
+  # name of the channel to plot
+  channels: ['CH40', 'CH41','CH1', 'CH2']
