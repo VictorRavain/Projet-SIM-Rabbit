@@ -2,13 +2,17 @@
 
 Le code Arduino utilisé pour l'automate est dans le fichier "AutoConst_Rabbit"
 
-Tout le projet en Python se trouve dans le dossier "LapinRobot" et doit être exécuter par le fichier "app" 
+Tout le projet en Python se trouve dans le dossier "LapinRobot" et doit être exécuté par le fichier "app" 
 Nous utilisons le logiciel PyCharm.
 Un fichier requirements détail les versions des logiciels et librairie utilisés pour assuré la portabilité du projet
 
 Vous trouverez la thèse de Marie Chevalier et le rapport de stage de Cassandra Barbey qui m'ont inspiré pour écrire mon rapport. 
 
 Une vidéo d'une première démonstration du projet ainsi qu'une vidéo récente montrant les derniers avancements
+
+Vous pouvez trouver les TP de physiologie dans lesquelles le projet s'insère.
+
+Une fichier type contenant les données d'un spécimen
 
 
 # Comment gérer les fichiers
