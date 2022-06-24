@@ -1,8 +1,14 @@
-Le code Arduino est dans le fichier "AutoConst_Rabbit"
+# Contenu du GitHub 
 
-Tout le projet en Python se trouve dans le dossier LapinRobot et doit être exécuter par le fichier "app" 
+Le code Arduino utilisé pour l'automate est dans le fichier "AutoConst_Rabbit"
 
-Vous trouverez la thèse de Marie Chevalier et le rapport de stage de Cassandra Barbey qui m'ont aidé, ainsi qu'une vidéo d'une première démonstration du projet et une vidéo récente du dernier avancement
+Tout le projet en Python se trouve dans le dossier "LapinRobot" et doit être exécuter par le fichier "app" 
+Nous utilisons le logiciel PyCharm.
+Un fichier requirements détail les versions des logiciels et librairie utilisés pour assuré la portabilité du projet
+
+Vous trouverez la thèse de Marie Chevalier et le rapport de stage de Cassandra Barbey qui m'ont inspiré pour écrire mon rapport. 
+
+Une vidéo d'une première démonstration du projet ainsi qu'une vidéo récente montrant les derniers avancements
 
 
 # Comment gérer les fichiers
